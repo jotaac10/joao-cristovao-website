@@ -33,7 +33,7 @@ function Hero() {
         />
         <img
           className={styles.colorMode}
-          src={themeIcon}
+          src={themeIcon}                                   
           alt="Color mode icon"
           onClick={toggleTheme}
         />
@@ -56,7 +56,7 @@ function Hero() {
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
-        <p>With a passion for developing </p>
+        <p className={styles.description}>With a passion for developing </p>
         <a href={CV} download>
           <button className="hover">My CV</button>
         </a>
