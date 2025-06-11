@@ -27,7 +27,7 @@ function Projects() {
           h3="Aventura dos Reinos"
           p="2D Game"
           githubLink="https://github.com/teu-user/aventura-dos-reinos"
-          playLink="https://jogo-aventura.com"
+          playLink="/aventuraDosReinos/index.html" 
         />
         <ProjectCard
           index={1}
