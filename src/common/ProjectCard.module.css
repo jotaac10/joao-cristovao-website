@@ -1,0 +1,55 @@
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.imageWrapper {
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  display: block;
+  transition: opacity 0.3s ease;
+}
+
+.card:hover .image {
+  opacity: 0.3;
+}
+
+.buttons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  gap: 20px;
+  z-index: 2;
+}
+
+.card:hover .buttons {
+  display: flex;
+}
+
+.icon {
+  font-size: 32px;
+  background: white;
+  border-radius: 20%;
+  padding: 10px;
+  color: #333;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.github:hover {
+  background: #007acc;
+  color: white;
+}
+
+.play:hover {
+  background: #e63946;
+  color: white;
+}

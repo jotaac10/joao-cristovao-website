@@ -76,6 +76,7 @@ p {
   }
   h2,
   h3 {
+    margin-top: 15px;
     font-size: 24px;
   }
   p {
@@ -87,9 +88,7 @@ p {
   }
 
   @media (width >= 1400px) {
-    #root {
-      gap: 200px;
-    }
+
     h1 {
       font-size: 48px;
     }
