@@ -55,13 +55,14 @@ function Projects() {
           githubLink="https://github.com/jotaac10/Receita-Ovos-Mexidos---AR-Project"
           showPlay={false}
         />
-          <ProjectCard
+        <ProjectCard
           src={myWebsite}
           h3="MyWebsite"
           p="React Website"
           githubLink="https://github.com/jotaac10/joao-cristovao-website"
           showPlay={false}
         />
+        
       </div>
 
       {}

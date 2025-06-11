@@ -55,7 +55,7 @@ function Hero() {
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
-        <h2> Student IPCB </h2>
+        <h2 className="h2-job"> IPCB Student </h2>
         <p className={styles.description}>With a passion for turning ideas into digital solutions</p>
         <a href={CV} download>
           <button className="hover">Resume</button>

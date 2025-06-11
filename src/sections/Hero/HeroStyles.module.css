@@ -45,6 +45,7 @@
 
   button:hover {
     transform: scale(1.05);
+    background-color: rgb(111, 183, 255);
   }
 
   button:active {
@@ -76,7 +77,6 @@
   flex-direction: column;
   gap: 20px;
 }
-
 
 @media (width >= 800px) {
   .container {
