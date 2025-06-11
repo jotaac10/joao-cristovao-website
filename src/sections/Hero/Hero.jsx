@@ -44,7 +44,6 @@ function Hero() {
           <br />
           Cristóvão
         </h1>
-        <h2> Student IPCB </h2>
         <span>
           <a href="https://www.instagram.com/jotaac10/" target="_blank">
             <img src={instagramIcon} alt="Instagram icon" />
@@ -56,9 +55,10 @@ function Hero() {
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
-        <p className={styles.description}>With a passion for developing </p>
+        <h2> Student IPCB </h2>
+        <p className={styles.description}>With a passion for turning ideas into digital solutions</p>
         <a href={CV} download>
-          <button className="hover">My CV</button>
+          <button className="hover">Resume</button>
         </a>
       </div>
     </section>
